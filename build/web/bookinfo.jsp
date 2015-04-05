@@ -39,7 +39,7 @@
                         <li><a><u>Hello, <%=user%> </u></a></li>
                         <li><a href="CommodityManager?command=home">Home</a></li>
                         <li><a href="CommodityManager?command=orders">My Orders</a></li>
-                        <li><a href="chatRoom.jsp">Chat Room</a></li>
+                        <li><a href="Service?command=chatRoom">Chat Room</a></li>
                         <li><a href="CommodityManager?command=showCart">Shopping Cart</a></li>
                         <li><a href="Logout">Log out</a></li>
                     </ul>

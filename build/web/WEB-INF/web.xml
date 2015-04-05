@@ -39,7 +39,7 @@
         <url-pattern>/User</url-pattern>
     </servlet-mapping> 
     
-        <servlet>
+    <servlet>
         <servlet-name>Logout</servlet-name>
         <servlet-class>Logout</servlet-class>
     </servlet>
@@ -49,4 +49,22 @@
         <url-pattern>/Logout</url-pattern>
     </servlet-mapping> 
 
+    <servlet>
+        <servlet-name>sendMessage</servlet-name>
+        <servlet-class>chatRoom.sendMessage</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>sendMessage</servlet-name>
+        <url-pattern>/sendMessage</url-pattern>
+    </servlet-mapping>
+        <servlet>
+        <servlet-name>checkMessage</servlet-name>
+        <servlet-class>chatRoom.checkMessage</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>checkMessage</servlet-name>
+        <url-pattern>/checkMessage</url-pattern>
+    </servlet-mapping>
 </web-app>

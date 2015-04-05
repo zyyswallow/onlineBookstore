@@ -58,7 +58,7 @@
 
                         <fieldset class="register-form-fields">
                             <div class="input">
-                                <input type="text" id="email" name="id" class="form-control" placeholder="Username" autocapitalize="off">
+                                <input type="text" id="email" name="id" class="form-control" placeholder="Username">
                             </div>
                             <div class="input" data-showpassword="">
                                 <input type="password" name="pwd" class="form-control" placeholder="Password">
@@ -109,13 +109,13 @@
                             <div class="form-group">
                                 <label class="col-sm-4 control-label">Name</label>
                                 <div class="col-sm-6">
-                                    <input type="name" name="id" class="form-control" placeholder="Name" autocapitalize="off">
+                                    <input name="id" class="form-control" placeholder="Name">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-4 control-label">Email</label>
                                 <div class="col-sm-6">
-                                    <input type="email" name="email" class="form-control" placeholder="Email" autocapitalize="off">
+                                    <input name="email" class="form-control" placeholder="Email">
                                 </div>
                             </div>
          

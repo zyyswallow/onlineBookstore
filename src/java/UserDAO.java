@@ -10,9 +10,9 @@ public class UserDAO {
     public UserDAO() {
         try {
             String driverName = "org.apache.derby.jdbc.ClientDriver";
-            String userName = "IS2560";
-            String userPasswd = "IS2560";
-            String dbName = "IS2560";
+            String userName = "TEST";
+            String userPasswd = "TEST";
+            String dbName = "onlineBookStore";
             url = "jdbc:derby://localhost:1527/" + dbName
                     + ";" + "user="
                     + userName + ";password=" + userPasswd;

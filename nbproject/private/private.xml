@@ -3,6 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group name="AdDatabase"/>
-        <group/>
+        <group>
+            <file>file:/Users/yanyanzhou/NetBeansProjects/onlineBookstore/web/home.jsp</file>
+            <file>file:/Users/yanyanzhou/NetBeansProjects/onlineBookstore/src/java/User.java</file>
+            <file>file:/Users/yanyanzhou/NetBeansProjects/onlineBookstore/src/java/Service.java</file>
+            <file>file:/Users/yanyanzhou/NetBeansProjects/onlineBookstore/web/index.jsp</file>
+            <file>file:/Users/yanyanzhou/NetBeansProjects/onlineBookstore/src/java/UserManagementDispatcher.java</file>
+            <file>file:/Users/yanyanzhou/NetBeansProjects/onlineBookstore/web/css/customize.css</file>
+        </group>
     </open-files>
 </project-private>

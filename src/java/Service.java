@@ -12,9 +12,9 @@ public class Service extends HttpServlet {
         super.init();
         try {
             String driverName = "org.apache.derby.jdbc.ClientDriver";
-            String userName = "IS2560";
-            String userPasswd = "IS2560";
-            String dbName = "IS2560";
+            String userName = "TEST";
+            String userPasswd = "TEST";
+            String dbName = "onlineBookStore";
             jdbcUrl = "jdbc:derby://localhost:1527/" + dbName
                     + ";" + "user="
                     + userName + ";password=" + userPasswd;
@@ -73,7 +73,16 @@ public class Service extends HttpServlet {
                     request.getRequestDispatcher("index.jsp").forward(request,
                             response);
                 }
-            } else {
+            } else if (cmd.equals("chatRoom")) {
+                HttpSession hts = request.getSession(false); //get session
+                if (hts != null) {
+                    request.getRequestDispatcher("chatRoom.jsp").forward(
+                                request, response);
+                } else {
+                    request.getRequestDispatcher("index.jsp").forward(request,
+                            response);
+                }
+            }else {
                 request.getRequestDispatcher("index.jsp").forward(request,
                         response);
             }
